@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+.main_container {
+  width: 70%;
+  height: 100%;
+  padding: 2rem;
+  margin: auto;
+}
+.container {
+  height: 24rem;
+  color: white;
+  padding: 2rem;
+}
+#orange {
+  background-color: rgb(227, 136, 38);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+#cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+#darkCyan {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.icon {
+  padding: 2rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+  color: hsl(0, 0%, 95%);
+}
+.content {
+  line-height: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 2rem;
+}
+button {
+  margin: 1.5rem 0;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  background-color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#orange button {
+  color: hsl(31, 77%, 52%);
+}
+#cyan button {
+  color: hsl(184, 100%, 22%);
+}
+#darkCyan button {
+  color: hsl(179, 100%, 13%);
+}
+#orange button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+#cyan button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+#darkCyan button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .main_container {
+    display: flex;
+  }
+  #orange {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  #darkCyan {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+}
