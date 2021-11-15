@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/css)
+- [W3SCHOOLS](https://www.w3schools.com/css)
 
 ## Author
 
